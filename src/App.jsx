@@ -84,7 +84,7 @@ function App() {
     '13d':snowyIcon,
     '13n':snowyIcon,
     '50d':mistIcon,
-    '50d':mistIcon
+    '50n':mistIcon
   }
 
   async function fetchData(){
@@ -106,6 +106,7 @@ function App() {
         setCountry(data.sys.country);
         setLat(data.coord.lat);
         setLog(data.coord.lon);
+        console.log(data.weather[0].icon);
         setIcon(weatherIconMap[data.weather[0].icon]);
         setNotFound(false);
       }
