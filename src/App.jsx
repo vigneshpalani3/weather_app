@@ -80,7 +80,7 @@ function App() {
     '10d':rainyIcon,
     '10n':rainyIcon,
     '11d':thunderIcon,
-    '11d':thunderIcon,
+    '11n':thunderIcon,
     '13d':snowyIcon,
     '13n':snowyIcon,
     '50d':mistIcon,
